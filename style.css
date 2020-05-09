@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 202, 247);
+}
+
+.main-picture {
+    width: 150px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; 
+    line-height: 2em;
+    font-weight: bold; 
+}
+
+input {
+    border: 2px solid rgb(73, 8, 73);
+}
+
+
+button {
+    width: 100%;
+    height: 30px;
+    font-weight: bolder;
+    
+}
+
